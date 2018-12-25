@@ -33,6 +33,7 @@
         "comma-spacing": ["error"],
         "arrow-spacing": ["error"],
         "semi-spacing": ["error"],
-        "space-before-function-paren": ["error", "never"]
+        "space-before-function-paren": ["error", "never"],
+        "no-magic-numbers": "warn"
     }
 }
