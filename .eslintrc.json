@@ -27,6 +27,7 @@
             "always"
         ],
         "no-console": "warn",
+        "no-alert": "warn",
         "no-unused-vars": "warn",
         "keyword-spacing": ["error", { "before": true, "after": true }],
         "space-infix-ops": ["error", {"int32Hint": false}],
@@ -34,6 +35,8 @@
         "arrow-spacing": ["error"],
         "semi-spacing": ["error"],
         "space-before-function-paren": ["error", "never"],
-        "no-magic-numbers": "warn"
+        "no-multi-spaces": "error",
+        "no-magic-numbers": "warn",
+        "valid-typeof": "error"
     }
 }
