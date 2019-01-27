@@ -1,6 +1,6 @@
 {
   "name": "kata-js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": true,
   "description": "kata js",
   "main": "src/index.js",
