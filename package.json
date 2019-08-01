@@ -1,6 +1,6 @@
 {
   "name": "kata-js",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": true,
   "description": "kata js",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
     "start": "node .",
     "lint": "eslint --ext .js .",
     "test": "jasmine spec/*.js",
-    "test:watch": "nodemon  --exec 'jasmine \"spec/*.js\"'"
+    "test:watch": "nodemon  --exec \"jasmine \"spec/*.js\"\""
   },
   "keywords": [
     "kata",
@@ -18,7 +18,8 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "jasmine": "^3.3.1",
-    "nodemon": "^1.18.9"
+    "eslint": "^6.1.0",
+    "jasmine": "^3.4.0",
+    "nodemon": "^1.19.1"
   }
 }
