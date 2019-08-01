@@ -1,5 +1,3 @@
-function foo (n) {
-	return n;
-}
+const foo = () => {};
 
 module.exports = foo;
