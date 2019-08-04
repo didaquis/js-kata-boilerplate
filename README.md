@@ -1,9 +1,17 @@
 JavaScript Kata Boilerplate
 ===========================
 
+This is a boilerplate ready for doing katas in JavaScript. 
 
-## Run code:
-Install dependencies: `npm run install`.  
+Jasmine.js is the library used for testing. Documentation are available [here](https://jasmine.github.io). 
 
-Run the test: `npm run test`.  
-Run the test with 'watch' option: `npm run test:watch`.  
+## How to use:
+This boilerplate require [Node.js](https://nodejs.org) installed on your computer.
+
+Clone or download this repository and then install the dependencies: `npm install`.  
+
+*Useful commands:*
+* Run the code: `npm run start`.  
+* Run the test: `npm run test`.  
+* Run the test with 'watch' option: `npm run test:watch`.    
+* Run a basic linter: `npm run lint`.  
