@@ -8,7 +8,7 @@
     "start": "node .",
     "lint": "eslint --ext .js .",
     "test": "jasmine spec/*.js",
-    "test:coverage": "nyc --reporter=html --reporter=text jasmine spec/*.js && live-server ./coverage",
+    "test:coverage": "nyc --exclude spec --reporter=html --reporter=text jasmine spec/*.js && live-server ./coverage",
     "test:watch": "nodemon  --exec \"jasmine \"spec/*.js\"\""
   },
   "keywords": [
