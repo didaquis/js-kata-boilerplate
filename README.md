@@ -6,7 +6,7 @@ This is a boilerplate ready for doing katas in JavaScript.
 Jasmine.js is the library used for testing. Documentation are available [here](https://jasmine.github.io). 
 
 ## How to use:
-This boilerplate require [Node.js](https://nodejs.org) installed on your computer.
+This boilerplate requires [Node.js](https://nodejs.org) 10 or higher installed on your computer.
 
 Clone or download this repository and then install the dependencies: `npm install`.  
 
