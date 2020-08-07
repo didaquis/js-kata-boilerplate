@@ -1,6 +1,6 @@
 {
   "name": "kata-js",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "private": true,
   "description": "kata js",
   "main": "src/index.js",
@@ -19,8 +19,8 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.3.1",
-    "jasmine": "^3.5.0",
+    "eslint": "^7.6.0",
+    "jasmine": "^3.6.1",
     "live-server": "^1.2.1",
     "nodemon": "^2.0.4",
     "nyc": "^15.1.0"
