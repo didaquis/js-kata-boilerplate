@@ -1,9 +1,9 @@
-JavaScript Kata Boilerplate
-===========================
+JavaScript Kata Boilerplate (using Jasmine.js)
+==============================================
 
 This is a boilerplate ready for doing katas in JavaScript. 
 
-Jasmine.js is the library used for testing. Documentation are available [here](https://jasmine.github.io). 
+Jasmine.js is the library used for testing. Documentation is available [here](https://jasmine.github.io). 
 
 ## How to use:
 This boilerplate requires [Node.js](https://nodejs.org) 10 or higher installed on your computer.
