@@ -4,12 +4,15 @@
   "private": true,
   "description": "kata js",
   "main": "src/index.js",
+  "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node .",
     "lint": "eslint --ext .js .",
-    "test": "jasmine spec/*.js",
-    "test:coverage": "nyc --exclude spec --reporter=html --reporter=text jasmine spec/*.js && live-server ./coverage",
-    "test:watch": "nodemon  --exec \"jasmine \"spec/*.js\"\""
+    "test": "jasmine --config=spec/support/jasmine.json",
+    "test:watch": "nodemon  --exec \"jasmine \"--config=spec/support/jasmine.json\"\""
   },
   "keywords": [
     "kata",
@@ -21,8 +24,6 @@
   "devDependencies": {
     "eslint": "^7.26.0",
     "jasmine": "^3.7.0",
-    "live-server": "^1.2.1",
-    "nodemon": "^2.0.7",
-    "nyc": "^15.1.0"
+    "nodemon": "^2.0.7"
   }
 }

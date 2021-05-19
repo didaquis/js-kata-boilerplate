@@ -1,3 +1,8 @@
-const foo = () => {};
+export const foo = () => {
 
-module.exports = foo;
+	if (true) {
+		return true
+	}
+
+	return false
+};
